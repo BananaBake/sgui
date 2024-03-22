@@ -25,7 +25,7 @@ jobs:
     - name: Checkout scratch-gui
       uses: actions/checkout@v4
       with:
-        repository: TurboWarp/scratch-gui
+        repository: BananaBake/scratch-gui
         path: scratch-gui
     - name: Setup GitHub Pages
       id: pages
